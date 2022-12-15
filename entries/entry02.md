@@ -6,7 +6,7 @@ During the past few weeks I have gained some knowledge of learning my tool Swift
 
 So far this is one thing I made with SwiftUI:
 
-
+![alt text](https://github.com/[mukhammadlatifl1280]/[apcsa-freedom-project]/blob/[branch]/code.png?raw=true)
 
 
 
