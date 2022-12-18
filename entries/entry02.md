@@ -6,7 +6,7 @@ During the past few weeks I have gained some knowledge of learning my tool Swift
 
 So far this is one thing I made with SwiftUI:
 
-![Code](github.com/mukhammadlatifl1280/apcsa-freedom-project/code.png)
+![Code](https://github.com/mukhammadlatifl1280/apcsa-freedom-project/blob/master/code.png)
 
 
 [Previous](entry01.md) | [Next](entry03.md)
