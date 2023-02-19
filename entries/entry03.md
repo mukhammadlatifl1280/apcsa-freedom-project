@@ -10,6 +10,45 @@ As I have mentioned early, this is what I made so far that is half way to making
 
 ![Preview](https://github.com/mukhammadlatifl1280/apcsa-freedom-project/blob/master/screenshot1.png)
 
+The screenshot above shows what I made using SwiftUI and has some back ends with swift code as shown below:
+
+```swift
+import UIKit
+
+class ViewController: UIViewController {
+    
+    var beforeTaxPrice: Float = 0
+    var salesTaxRate: Float = 0
+    
+    @IBOutlet weak var afterTaxPriceTextField: UITextField!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
+    func parseInputsToFloat(text: String) -> Float {
+        if let value = Float(text) {
+            return value
+        }
+        return 0
+    }
+
+    @IBAction func beforeTaxPriceChanged(_ sender: UITextField) {
+        beforeTaxPrice = parseInputsToFloat(text: sender.text!)
+    }
+    
+    @IBAction func salesTaxRateChanged(_ sender: UITextField) {
+        salesTaxRate = parseInputsToFloat(text: sender.text!)
+    }
+    
+    @IBAction func calculateButtonPressed(_ sender: Any) {
+        let salesTax = beforeTaxPrice * salesTaxRate / 100
+        let afterTaxPrice = beforeTaxPrice + salesTax
+        afterTaxPriceTextField.text = String(afterTaxPrice)
+    }
+}
+```
+
 [Previous](entry02.md) | [Next](entry04.md)
 
 [Home](../README.md)
