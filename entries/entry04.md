@@ -14,7 +14,7 @@ To show the UI of swift how I managed to connect the pages this is the example t
 Now in order to show how this all worked I will briefly demonstrate how the UI works in this video:
 
 ![Preview](https://github.com/mukhammadlatifl1280/apcsa-freedom-project/blob/master/tutorial1.mov)
-*Note in order to watch this tutorial video you would need to click on the file and download the raw version
+*Note in order to watch this tutorial video that I made, you would need to click on the file and download the raw version.
 
 To highlight what I gained knowledge from learning that function gave me so many new possibilities because at first I was stuck with one page and now that I learned to create new different pages, this would allow me to go further on my beyond MVP. One example of an beyond MVP that I am thinking is different tax forms such as 1099 based on the person's information by asking questions. Based on user's answer it will bring to certain page that will tell how much they have to pay for taxes.
 
