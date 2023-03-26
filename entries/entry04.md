@@ -11,6 +11,12 @@ To show the UI of swift how I managed to connect the pages this is the example t
 
 ![Preview](https://github.com/mukhammadlatifl1280/apcsa-freedom-project/blob/master/swiftui.png)
 
+Now in order to show how this all worked I will briefly explain using the images below:
+
+![Preview](https://github.com/mukhammadlatifl1280/apcsa-freedom-project/blob/master/tutorial1.mov)
+
+
+
 [Previous](entry03.md) | [Next](entry05.md)
 
 [Home](../README.md)
